@@ -51,3 +51,8 @@ function toggleEmojis() {
     /* $('#emojis').show(); // #show */
     $('#emojis').toggle(); // #toggle
 }
+
+//this toggles the app bar star at the top-right corner.
+function star(){
+    $('#channel-star').toggleClass( "fas far" );
+}
